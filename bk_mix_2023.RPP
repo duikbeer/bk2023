@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "6.80/linux-x86_64" 1687621226
+<REAPER_PROJECT 0.1 "6.80/linux-x86_64" 1687642449
   <NOTES 0 2
   >
   RIPPLE 0
@@ -12,12 +12,12 @@
   PANLAW 1
   PROJOFFS 0 0 0
   MAXPROJLEN 0 0
-  GRID 3199 8 1 8 1 0 0 0
+  GRID 3455 8 1 8 1 0 0 0
   TIMEMODE 1 5 -1 30 0 0 -1
   VIDEO_CONFIG 0 0 256
   PANMODE 3
-  CURSOR 74
-  ZOOM 4.20945479399097 0 0
+  CURSOR 72.7906432024311
+  ZOOM 4.30649062064824 0 0
   VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
@@ -73,6 +73,21 @@
   MASTER_PANMODE 3
   MASTER_FX 1
   MASTER_SEL 0
+  <MASTERFXLIST
+    WNDRECT 2885 44 896 1077
+    SHOW 0
+    LASTSEL 0
+    DOCKED 0
+    BYPASS 0 0 0
+    <VST "VST: ReaLimit (Cockos)" realimit.vst.so 0 "" 1919708532<565354726C6D747265616C696D697400> ""
+      dG1scu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAMAAAAAEAAAAAABAA
+      AwAAAAAAAAAAAAAAAAAAAMDMzMzMzPC/AgAAAAAAAAB0AgAA6AMAAD+fduMQw8Y/
+      AAAQAAAA
+    >
+    FLOATPOS 2566 44 628 1028
+    FXID {52C84154-48C8-E83E-7AF8-256DD61C7929}
+    WAK 0 0
+  >
   <MASTERPLAYSPEEDENV
     EGUID {6EE67C7F-1123-2EBC-44F4-FE2ECC07ABCE}
     ACT 0 -1
@@ -89,10 +104,11 @@
     ARM 0
     DEFSHAPE 1 -1 -1
   >
+  MARKER 1 77.39881207039052 "" 0 0 1 B {397B7225-8E05-A80B-732A-7016C42D71D9}
   <PROJBAY
   >
   <TRACK {383A8E37-E943-3A37-39C2-DBD691B2C7C0}
-    NAME ""
+    NAME 01
     PEAKCOL 32461590
     BEAT -1
     AUTOMODE 0
@@ -115,6 +131,7 @@
     MIDIOUT -1
     MAINSEND 1 0
     <FXCHAIN
+      WNDRECT 2885 61 947 1028
       SHOW 0
       LASTSEL 0
       DOCKED 0
@@ -122,22 +139,77 @@
       <VST "VST: ReaEQ (Cockos)" reaeq.vst.so 0 "" 1919247729<56535472656571726561657100000000> ""
         cWVlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAArAAAAAEAAAAAABAA
         IQAAAAQAAAAAAAAAAQAAAAAAAAAAQG9AAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEIAAAAAQAAAAAAAAAAQI9AAAAAAAAA
-        8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAALMDAADoAwAAAgAAAA==
-        AFByb2dyYW0gMQAQAAAA
+        8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAAAKcCAAC3AwAAAgAAAA==
+        AAAQAAAA
       >
       FLOATPOS 2885 44 947 1028
       FXID {D9785DA6-6E07-0C8F-2530-2C4D4AE4A637}
+      <PARMENV 1:_Gain_Low_Shelf 0 1 0.25 "Gain-Low Shelf / ReaEQ"
+        EGUID {2E46EF06-7923-7BC8-B806-A607145F7478}
+        ACT 1 -1
+        VIS 1 1 1
+        LANEHEIGHT 0 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        PT 0 0.25 0
+      >
       WAK 0 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 16.72444010099367
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.093757 0 1 0 0 0
+      FADEOUT 1 1.692836 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C9A4E667-05E8-792A-622B-504A6E237DF3}
+      IID 24
+      NAME "N'to - Carrousel [smIafjm7Ecs].webm"
+      VOLPAN 0.888889 0 1 -1
+      SOFFS 79.71502413751175
+      PLAYRATE 1 1 4 -1 0 0.0025
+      CHANMODE 0
+      GUID {39A08503-43C7-BB5E-83FC-F8507495C2E0}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "downloads/samples/N'to - Carrousel [smIafjm7Ecs].webm"
+      >
+    >
+    <ITEM
+      POSITION 74.03399291851498
+      SNAPOFFS 0
+      LENGTH 199.01530793455953
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 6.072051 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9E34B8FB-0985-4F07-A65A-B917137834A8}
+      IID 47
+      NAME "Joachim Pastor - Taïga (N'to Remix) [7D0-5QddsOM].webm"
+      VOLPAN 0.857143 0 1 -1
+      SOFFS 144.70813928872772
+      PLAYRATE 1.04159254311952 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D020F0B6-90CE-F031-B62B-560F628D668A}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "downloads/doorgaand/Joachim Pastor - Taïga (N'to Remix) [7D0-5QddsOM].webm"
+      >
     >
   >
   <TRACK {68B8E1A8-CB5A-F26A-F94C-0100410B3978}
-    NAME "Mecano - Hijo de la Luna (Videoclip) [OwGG5fX7bxY]"
+    NAME 02
     PEAKCOL 17683675
     BEAT -1
     AUTOMODE 0
     VOLPAN 1 0 -1 -1 1
     MUTESOLO 0 0 0
-    IPHASE 0
+    IPHASE 1
     PLAYOFFS 0 1
     ISBUS 0 0
     BUSCOMP 0 0 0 0 0
@@ -166,7 +238,311 @@
       >
       FLOATPOS 0 0 0 0
       FXID {FCC815AA-A15F-6D49-04A7-986D350BF256}
+      <PARMENV 1:_Gain_Low_Shelf 0 1 0.25 "Gain-Low Shelf / ReaEQ"
+        EGUID {3766882D-2617-EEF2-4CA4-BC9FFA7CD5AE}
+        ACT 1 -1
+        VIS 1 1 1
+        LANEHEIGHT 0 0
+        ARM 1
+        DEFSHAPE 0 -1 -1
+        PT 0 0.25 0
+      >
       WAK 0 0
+    >
+    <ITEM
+      POSITION 17.23598598825353
+      SNAPOFFS 0
+      LENGTH 63.85238325517474
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.096018 0 1 0 0 0
+      FADEOUT 1 0.147217 0 1 0 0 0
+      MUTE 0 0
+      SEL 1
+      IGUID {E20C8D1C-2B5F-B351-D17B-EAEC736A3682}
+      IID 26
+      NAME "Mae Muller - I Wrote A Song ESC EDIT (Instrumental) [ag5WgBe9fx0].mkv"
+      VOLPAN 1 0 1 -1
+      SOFFS 11.5
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {8FF1C649-A697-92B9-ADFA-7780B3AF2B47}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "downloads/main epic themes/Mae Muller - I Wrote A Song ESC EDIT (Instrumental) [ag5WgBe9fx0].mkv"
+      >
+    >
+    <ITEM
+      POSITION 827.43634152896948
+      SNAPOFFS 0
+      LENGTH 186.741
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {24DAEE94-5521-A76B-7351-717D54D6A77B}
+      IID 10
+      NAME "Mae Muller - I Wrote A Song ESC EDIT (Instrumental) [ag5WgBe9fx0].mkv"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E2E52EDC-4EB9-4737-D7E0-03E51F72F531}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "downloads/main epic themes/Mae Muller - I Wrote A Song ESC EDIT (Instrumental) [ag5WgBe9fx0].mkv"
+      >
+    >
+    <ITEM
+      POSITION 1014.1773415289694
+      SNAPOFFS 0
+      LENGTH 228.74100000000135
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4BD2737C-1B89-BF65-815B-FE7F35CEEDE4}
+      IID 11
+      NAME "Shempi (Zongamin Remix) [Gty8yCYkxDU].webm"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {39B08455-A1A4-516E-C4AB-AFC1BCA64155}
+      <SOURCE VIDEO
+        FLIP 0 1
+        FILE "downloads/main epic themes/Shempi (Zongamin Remix) [Gty8yCYkxDU].webm"
+      >
+    >
+  >
+  <TRACK {33618D7C-1395-31D1-02D1-645012B0DFDE}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {33618D7C-1395-31D1-02D1-645012B0DFDE}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 15.7892968539043
+      SNAPOFFS 0
+      LENGTH 2.21642224949821
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0.303842 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1506CDE2-7F6C-E9B9-16C0-92CD808D46CB}
+      IID 32
+      NAME "Mecano - Hijo de la luna [VqobpXi4VtM].webm"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1.04902581171654 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FFECB4DF-FA1F-499C-2A1B-AC1114F238B7}
+      <SOURCE SECTION
+        LENGTH 2.01586559304703
+        STARTPOS 0.26387220092025
+        OVERLAP 0.01
+        <SOURCE VIDEO
+          FLIP 0 1
+          FILE "downloads/main epic themes/Mecano - Hijo de la luna [VqobpXi4VtM].webm"
+        >
+      >
+    >
+    <ITEM
+      POSITION 31.0148398813411
+      SNAPOFFS 0
+      LENGTH 0.97663618126956
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {738F8167-9F2A-7210-41B6-05BDA3983A45}
+      IID 36
+      NAME "Suprême NTM - Touche Pas À Ma Musique (That's My People Remix A capella) [kMvccIRJUWk].webm"
+      VOLPAN 1 0 1 -1
+      SOFFS 2.99199854198745
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {D900D711-79BC-2073-D779-889B489A6C94}
+      <SOURCE SECTION
+        LENGTH 4.19023435582822
+        STARTPOS 158.4307656441718
+        OVERLAP 0.01
+        <SOURCE VIDEO
+          FLIP 0 1
+          FILE "downloads/fluf/Suprême NTM - Touche Pas À Ma Musique (That's My People Remix A capella) [kMvccIRJUWk].webm"
+        >
+      >
+    >
+    <ITEM
+      POSITION 33.28379105993002
+      SNAPOFFS 0
+      LENGTH 16.47728466257668
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9E8B6F1E-153B-0A86-081C-F5F3A02A0DCC}
+      IID 45
+      NAME "Suprême NTM - Touche Pas À Ma Musique (That's My People Remix A capella) [kMvccIRJUWk].webm"
+      VOLPAN 0.745455 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {23E83B63-7D1A-F4F4-B430-616A500A9082}
+      <SOURCE SECTION
+        LENGTH 16.47728466257669
+        STARTPOS 0
+        OVERLAP 0.01
+        <SOURCE VIDEO
+          FLIP 0 1
+          FILE "downloads/fluf/Suprême NTM - Touche Pas À Ma Musique (That's My People Remix A capella) [kMvccIRJUWk].webm"
+        >
+      >
+    >
+    <ITEM
+      POSITION 63.43734763955118
+      SNAPOFFS 0
+      LENGTH 2.99199854198745
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1 0.01 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {94AE92F0-F68A-711E-7D80-164568ABDDAC}
+      IID 36
+      NAME "Suprême NTM - Touche Pas À Ma Musique (That's My People Remix A capella) [kMvccIRJUWk].webm"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DEB0E655-283D-A0D0-A4D6-74B99DE4128D}
+      <SOURCE SECTION
+        LENGTH 4.19023435582822
+        STARTPOS 158.4307656441718
+        OVERLAP 0.01
+        <SOURCE VIDEO
+          FLIP 0 1
+          FILE "downloads/fluf/Suprême NTM - Touche Pas À Ma Musique (That's My People Remix A capella) [kMvccIRJUWk].webm"
+        >
+      >
+    >
+  >
+  <TRACK {CCC6957F-0B68-583F-C631-9A8993EDDA98}
+    NAME "Mecano - Hijo de la luna [VqobpXi4VtM]"
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {CCC6957F-0B68-583F-C631-9A8993EDDA98}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 7.42360019927885
+      SNAPOFFS 0
+      LENGTH 8.62875
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0.01 0 1 0 0 0
+      FADEOUT 1.1 0.01 0.007982 1 1 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {F9B98CCD-C791-5A44-F057-5599B02CF732}
+      IID 29
+      NAME "Mecano - Hijo de la luna [VqobpXi4VtM].webm"
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {40E0CD00-7681-4A3C-EE40-67EC2501135E}
+      <SOURCE SECTION
+        LENGTH 8.62876932515338
+        STARTPOS 250.07451840490799
+        OVERLAP 0.01
+        <SOURCE VIDEO
+          FLIP 0 1
+          FILE "downloads/main epic themes/Mecano - Hijo de la luna [VqobpXi4VtM].webm"
+        >
+      >
+      TAKE SEL
+      NAME "Mecano - Hijo de la luna [VqobpXi4VtM] reversed 001.wav"
+      TAKEVOLPAN 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EC43515D-480F-0376-449C-2EDD57D6F42A}
+      <SOURCE WAVE
+        FILE "Mecano - Hijo de la luna [VqobpXi4VtM] reversed 001.wav"
+      >
+    >
+    <ITEM
+      POSITION 16.04436856608962
+      SNAPOFFS 0
+      LENGTH 4.7191828081415
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1.1 0.268947 0.007982 1 1 0 0
+      FADEOUT 2 4.509563 0 2 0 -1 -1
+      MUTE 0 0
+      SEL 0
+      IGUID {A5A83E5E-6A8A-58B1-7B7B-AE54B96663F4}
+      IID 31
+      NAME "Mecano - Hijo de la luna [VqobpXi4VtM].webm"
+      VOLPAN 0.28 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {18024498-2528-3E50-D6C0-B2E79264783A}
+      <SOURCE SECTION
+        LENGTH 8.62876932515338
+        STARTPOS 250.07451840490799
+        OVERLAP 0.01
+        <SOURCE VIDEO
+          FLIP 0 1
+          FILE "downloads/main epic themes/Mecano - Hijo de la luna [VqobpXi4VtM].webm"
+        >
+      >
     >
   >
 >
